@@ -22,7 +22,7 @@ void PrintArray(double[] array) // вывод на экран массива
     System.Console.WriteLine("]");
 }
 
-(double min, double max) SearchArrayExtremum(double[] array)
+(double min, double max) SearchArrayExtremum(double[] array) // нахождение min и max значений массива
 {
     double max = array[0];
     double min = array[0];
